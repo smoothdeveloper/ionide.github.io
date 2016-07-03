@@ -8,8 +8,7 @@ fa-icon: plug
 
 # Getting Started
 
-F# 3.1 needs to be installed on your system in order to use Ionide
-[You can download F# 3.1 here for Windows](https://www.microsoft.com/en-us/download/details.aspx?id=44011)
+F# 4.0 needs to be installed on your system in order to use Ionide
 
 For more detailed instructions on installing F# :
 
@@ -17,9 +16,26 @@ For more detailed instructions on installing F# :
 * [Installing F# on OSX](http://fsharp.org/use/mac/)
 * [Installing F# on Windows](http://fsharp.org/use/windows/)
 
+
 **FSC** _(F# Compiler)_ and **FSI/fsharpi** on Mono _(F# Interactive)_ need to be added to your system **PATH**.
 The default location on 64-bit Windows is `C:\Program Files (x86)\Microsoft SDKs\F#\4.0\Framework\v4.0\`, 
 on 32-bit Windows is `C:\Program Files\Microsoft SDKs\F#\4.0\Framework\v4.0`.
+
+## Quick Install Guide
+
+### Windows
+
+[You can download F# 4.0 here for Windows](https://www.microsoft.com/en-us/download/details.aspx?id=48179)
+
+If you use [chocolatey](chocolatey.org), you can install all the pre-requisites easily:
+
+    choco install windows-sdk-8.0 -y
+    choco install visualfsharptools -y
+    choco install microsoft-build-tools -y
+    rem ;;; for vscode
+    choco install visualstudiocode -y
+    rem ;;; for atom
+    choco install atom -y
 
 ## Atom
 
